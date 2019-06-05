@@ -3,11 +3,26 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "start": "start-storybook -p 6006",
+    "build:docs": "build-storybook"
+  },
   "keywords": [],
-  "author": "",
+  "author": "Walker Randolph Smith <walkerrandolphsmith@gmail.com>",
   "license": "ISC",
   "dependencies": {
-    "lit-element": "^2.1.0"
+  },
+  "repository": "git@github.com:walkerrandolphsmith/web-components.git",
+  "devDependencies": {
+    "@storybook/addon-info": "^5.0.11",
+    "@storybook/addon-knobs": "^5.0.11",
+    "@storybook/cli": "^5.0.11",
+    "@storybook/components": "^5.0.11",
+    "@storybook/polymer": "^5.0.11",
+    "@types/storybook__react": "^4.0.1",
+    "awesome-typescript-loader": "^5.2.1",
+    "polymer-webpack-loader": "^2.0.3",
+    "react-docgen-typescript-loader": "^3.1.0",
+    "typescript": "^3.5.1"
   }
 }
