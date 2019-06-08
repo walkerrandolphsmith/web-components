@@ -1,0 +1,48 @@
+---
+name: Spaced Group
+---
+
+import SpacedGroup from "./index.ts";
+import List from "./../list/index.ts";
+import { Playground } from "docz";
+import { propTypesToObject } from "../prop-types-to-object.ts";
+
+# SpacedGroup
+
+<Playground>
+  {() => {
+    return (
+      <div>
+        <of-list props={SpacedGroup.prototype.propDefinitions} />
+      </div>
+    );
+
+}}
+
+</Playground>
+
+# SpacedGroup
+
+SpacedGroups are great when you have variable width elements you want to uniformly space and wrap to the next line.
+
+<Playground>
+  <spaced-group>
+    <div style={{ width: "25px", height: "25px", border: "1px solid grey" }} />
+    <div style={{ width: "25px", height: "25px", border: "1px solid grey" }} />
+    <div style={{ width: "25px", height: "25px", border: "1px solid grey" }} />
+    <div style={{ width: "25px", height: "25px", border: "1px solid grey" }} />
+    <div style={{ width: "25px", height: "25px", border: "1px solid grey" }} />
+  </spaced-group>
+</Playground>
+
+## Direction
+
+<Playground>
+  <spaced-group direction="vertical">
+    <div style={{ width: "25px", height: "25px", border: "1px solid grey" }} />
+    <div style={{ width: "25px", height: "25px", border: "1px solid grey" }} />
+    <div style={{ width: "25px", height: "25px", border: "1px solid grey" }} />
+    <div style={{ width: "25px", height: "25px", border: "1px solid grey" }} />
+    <div style={{ width: "25px", height: "25px", border: "1px solid grey" }} />
+  </spaced-group>
+</Playground>

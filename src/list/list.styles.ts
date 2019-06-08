@@ -1,4 +1,4 @@
-import { name } from './spaced-group.name';
+import { name } from "./list.name";
 
 export const getStyles = () => {
   return `[data-component="${name}"] {
@@ -23,4 +23,5 @@ export const getStyles = () => {
   margin: 8px;
   background: var(--background);
 }
-`};
+`;
+};

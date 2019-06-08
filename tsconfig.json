@@ -22,6 +22,9 @@
     "experimentalDecorators": true,
     "emitDecoratorMetadata": true
   },
+  "files": [
+    "./typings.d.ts"
+  ],
   "include": [
       "src/**/*"
   ],
